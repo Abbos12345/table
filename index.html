@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="table__wrapper">
+    <table>
+        <thead>
+            <tr>
+                <td rowspan="2" colspan="2"></td>
+                <td colspan="2">Январь</td>
+                <td colspan="2">Февраль</td>
+                <td colspan="2">Март</td>
+                <td colspan="2">Апрель</td>
+                <td>Май</td>
+            </tr>
+            <tr>
+                <td>План</td>
+                <td>Факт</td>
+                <td>План</td>
+                <td>Факт</td>
+                <td>План</td>
+                <td>Факт</td>
+                <td>План</td>
+                <td>Факт</td>
+                <td>План</td>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td rowspan="3" colspan="1" class="text-rotate">Группа 1</td>
+                <td colspan="1" class="wide-cell">Иванов И.И.</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td colspan="1" class="wide-cell">Петров П.П.</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+                <td>6</td>
+                <td>5</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="1" class="wide-cell">Сидоров С.С.</td>
+                <td>5</td>
+                <td>3</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>1</td>
+                <td>4</td>
+                <td>7</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="wide-cell bold-text">Итог по группе 1</td>
+                <td>15</td>
+                <td>13</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>11</td>
+                <td>14</td>
+                <td>17</td>
+                <td>13</td>
+            </tr>
+
+            <tr><td colspan="11"></td></tr>
+
+            <tr>
+                <td rowspan="3" colspan="1" class="text-rotate">Группа 2</td>
+                <td colspan="1" class="wide-cell">Иванова А.А.</td>
+                <td>5</td>
+                <td>8</td>
+                <td>9</td>
+                <td>9</td>
+                <td>7</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td colspan="1" class="wide-cell">Петрова Б.Б.</td>
+                <td>6</td>
+                <td>5</td>
+                <td>6</td>
+                <td>8</td>
+                <td>8</td>
+                <td>5</td>
+                <td>2</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="1" class="wide-cell">Сидорово В.В.</td>
+                <td>7</td>
+                <td>2</td>
+                <td>3</td>
+                <td>7</td>
+                <td>9</td>
+                <td>6</td>
+                <td>1</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="wide-cell bold-text">Итог по группе 2</td>
+                <td>18</td>
+                <td>15</td>
+                <td>18</td>
+                <td>24</td>
+                <td>24</td>
+                <td>15</td>
+                <td>6</td>
+                <td>15</td>
+                <td>18</td>
+            </tr>
+
+            <tr><td colspan="11"></td></tr>
+
+            <tr>
+                <td colspan="11">
+                    <span class="bold-text">Группа 1:</span> <br>
+                    <span style="margin-left: 12px;">- 3 человек </span> <br>
+                    <span class="bold-text">Группа 2:</span> <br>
+                    <span style="margin-left: 12px;">- 3 человек </span> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <script>
+        let table1 = document.querySelector('table');
+        console.log(table1.offsetWidth)
+    </script>
+</body>
+</html>
